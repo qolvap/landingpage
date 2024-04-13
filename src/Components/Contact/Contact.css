@@ -1,0 +1,152 @@
+/* Location */
+.page__location {
+	margin-bottom: 240px;
+} 
+@media (max-width: 1200px) {
+    .page__location {
+        margin-bottom: 100px;
+	}
+    }
+    @media (max-width: 991.98px) {
+        .page__location {
+            margin-bottom: 60px;
+        }
+    }
+    @media (max-width: 767.98px) {
+        .page__location {
+            margin-bottom: 50px;
+        }
+    }
+    
+.location {
+}
+.location__container {
+}
+.location__header-block {
+}
+.location__map {
+	width: 100%;
+	box-shadow: 0 30px 60px 0 rgba(71, 74, 87, 0.25);
+	height: 405px;
+}
+
+/* Footer */
+.footer {
+}
+.footer__body {
+	margin-bottom: 95px;
+}
+.footer__container {
+	display: flex;
+	column-gap: 100px;
+	row-gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.footer__item {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.footer__title {
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.footer__logo {
+	max-width: 248px;
+}
+.footer__social {
+}
+.social {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 17px;
+	height: 93px;
+	align-items: center;
+}
+.social__item {
+}
+.footer__link {
+	height: 93px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	color: #000;
+}
+.footer__link:hover {
+	text-decoration: underline;
+}
+.footer__copy {
+	text-align: center;
+	color: #fff;
+	background-color: #4475f2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media (max-width: 1200px) {
+	.footer__body {
+		margin-bottom: 70px;
+	}
+}
+@media (max-width: 991.98px) {
+	.footer__body {
+		margin-bottom: 50px;
+	}
+}
+@media (max-width: 767.98px) {
+	.footer__body {
+		margin-bottom: 30px;
+	}
+}
+
+/*contact*/
+.subscription__container {
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	text-align: center;
+	height: 100%; 
+  }
+  
+  .subscription__content {
+	max-width: 600px; 
+	padding: 20px; 
+  }
+  
+  .subscription__content ul {
+	list-style: none; 
+	padding: 0; 
+	text-align: center; 
+  }
+  
+  .subscribe__box {
+	display: flex;
+	justify-content: center; 
+	margin-top: 20px; 
+  }
+  .email__input {
+	padding: 10px; 
+	margin-right: 10px; 
+  }
+  
+  .email__subscription {
+	padding: 10px 20px; 
+	background-color: #4475f2; 
+	color: #fff; 
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	transition: background-color 0.3s; 
+  }
+  
+  .email__subscription:hover {
+	top: 3px;
+	box-shadow: 0 30px 60px 0 rgba(68, 117, 242, 0.5);
+}
+  

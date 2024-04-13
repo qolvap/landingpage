@@ -1,18 +1,24 @@
 import React from "react";
+import Navbar from "./Components/NavBar/Navbar.js";
+import Contact from "./Components/Contact/Contact";
+import Hero from "./Components/Hero/Hero";
+import Features from "./Components/Features/Features";
+import Service from "./Components/Service/Service";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.js";
-import Navbar from "./Components/NavBar/Navbar.js"
-import Main from "./Components/Main/Main.js";
-
 
 function App() {
-  
+
   return (
-    <div className="App">
-      <ScrollToTop />
+      <div className="wrapper">
+        <ScrollToTop/>
         <Navbar />
-        <Main />
-    </div>
+        <Hero />
+        <Features />
+        <Service  />
+        <Contact />
+      </div>
   );
 }
 
 export default App;
+
